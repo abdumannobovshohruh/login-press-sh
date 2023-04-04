@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: url(img/oto\ b.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.logo{
+    color: azure;
+}
+.li_a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.up{
+    color: red;
+    background-color: rgb(125, 77, 170);
+    padding: 10px 40px;
+    border: none;
+}
+/*  run      */
+.run{
+    /* padding: 10px 50px; */
+    margin-top: 40px;
+}
+.free{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.menu{
+    width: 100%;
+    border: 2px solid rgb(142, 104, 104);
+    /* height: 400px; */
+    display: none;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.login{
+    background-color: red;
+    border: none;
+    padding: 10px 10px;
+    color: wheat;
+    font-size: 23px;
+    margin-bottom: 100px;
+}
+.logo{
+    text-align: center;
+}
+.zero{
+    font-size: 40px;
+  margin-left: 70px;
+background: red;
+}
+@media (max-width: 575px) {
+    .up{
+            font-size: 8px;
+            width: 100%;
+            padding: 10px 15px;
+        
+    }
+    .login {
+        background-color: red;
+        border: none;
+        padding: 6px 5px;
+        color: wheat;
+        font-size: 17px;
+        margin-bottom: 54px;
+    }
+    .zero {
+        font-size: 33px;
+        margin-left: 70px;
+        background: red;
+    }
+}
